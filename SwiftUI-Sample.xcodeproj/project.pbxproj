@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82FB180928FE8D3600C03131 /* SwiftUI_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB180828FE8D3600C03131 /* SwiftUI_SampleApp.swift */; };
-		82FB180B28FE8D3600C03131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB180A28FE8D3600C03131 /* ContentView.swift */; };
+		82FB180B28FE8D3600C03131 /* NameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB180A28FE8D3600C03131 /* NameCardView.swift */; };
 		82FB180D28FE8D3700C03131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FB180C28FE8D3700C03131 /* Assets.xcassets */; };
 		82FB181028FE8D3700C03131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FB180F28FE8D3700C03131 /* Preview Assets.xcassets */; };
 		82FB181A28FE8D3700C03131 /* SwiftUI_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB181928FE8D3700C03131 /* SwiftUI_SampleTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		82FB180528FE8D3600C03131 /* SwiftUI-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FB180828FE8D3600C03131 /* SwiftUI_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SampleApp.swift; sourceTree = "<group>"; };
-		82FB180A28FE8D3600C03131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82FB180A28FE8D3600C03131 /* NameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCardView.swift; sourceTree = "<group>"; };
 		82FB180C28FE8D3700C03131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FB180F28FE8D3700C03131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82FB181528FE8D3700C03131 /* SwiftUI-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				82FB180828FE8D3600C03131 /* SwiftUI_SampleApp.swift */,
-				82FB180A28FE8D3600C03131 /* ContentView.swift */,
+				82FB180A28FE8D3600C03131 /* NameCardView.swift */,
 				82FB180C28FE8D3700C03131 /* Assets.xcassets */,
 				82FB180E28FE8D3700C03131 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82FB180B28FE8D3600C03131 /* ContentView.swift in Sources */,
+				82FB180B28FE8D3600C03131 /* NameCardView.swift in Sources */,
 				82FB180928FE8D3600C03131 /* SwiftUI_SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +420,7 @@
 				DEVELOPMENT_TEAM = T7BG65JB87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UIテスト";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +433,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.opst.dx.SwiftUI-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +453,7 @@
 				DEVELOPMENT_TEAM = T7BG65JB87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UIテスト";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,6 +466,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.opst.dx.SwiftUI-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
